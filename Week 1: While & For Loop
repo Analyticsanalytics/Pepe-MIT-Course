@@ -1,5 +1,5 @@
 
-1). Convert the following into code that uses a WHILE & FOR loop.
+1). Convert the following into code that uses a WHILE/FOR loop.
 
 print 2
 prints 4
@@ -23,7 +23,7 @@ for i in range(2,11,2):
 print("Goodbye!")
 
 
-2). Convert the following into code that uses a while loop.
+2). Convert the following into code that uses a while/for loop.
 
 prints Hello!
 prints 10
@@ -45,8 +45,8 @@ for num in range(10, 0, -2):
     print(num)
 
 
-3). 3. Write a while loop that sums the values 1 through end, inclusive. end is a variable that we define for you. So, for example, if
-we define end to be 6, your code should print out the result:21. which is 1 + 2 + 3 + 4 + 5 + 6.
+3). 3. Write a while/for loop that sums the values 1 through end, inclusive. end is a variable that we define for you. So, for example,
+if we define end to be 6, your code should print out the result:21. which is 1 + 2 + 3 + 4 + 5 + 6.
 
 Solution:
 
@@ -101,6 +101,33 @@ phrase = "hello, world"
 for iteration in range(5):
     count += len(phrase)
     print("Iteration " + str(iteration) + "; count is: " + str(count))
+
+
+#######################################################################################################################################
+################################################          ASSIGNMENTS           #######################################################
+
+1) Assume s is a string of lower case characters.
+
+Write a program that counts up the number of vowels contained in the string s. Valid vowels are: 'a', 'e', 'i', 'o', and 'u'. For 
+example, if s = 'azcbobobegghakl', your program should print:
+Number of vowels: 5
+
+Solution:
+
+numVow = 0
+for char in s:
+    if char == 'a' or char == 'e' or char == 'i' or char == 'o' or char == 'u':
+        numVow += 1
+print("Number of vowels: "+ str(numVow))
+
+
+#Another Way to solve this:
+numVow = 0
+for char in s:
+    if char in "aeiou":
+        numVow += 1
+print("Number of vowels: "+ str(numVow))
+
 
 
 
