@@ -1,3 +1,8 @@
+For & while loops
+
+for i in range(6,12,2): #1st one is start. 2nd num is stop (excluding) and 3rd num is step size.
+    print(i)      #It will print 6,8 & 10.
+
 
 1). Convert the following into code that uses a WHILE/FOR loop.
 
