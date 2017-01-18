@@ -1,0 +1,15 @@
+#Checking what fucntions a package contains
+import math
+print(dir(math))
+
+#We can get description of each function of package using help()
+help(math.log)
+
+
+
+
+
+
+
+
+
