@@ -5,6 +5,8 @@ print(dir(math))
 #We can get description of each function of package using help()
 help(math.log)
 
+# In order to get all the hotkeys in iPython, click h.
+
 
 
 
